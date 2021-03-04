@@ -45,12 +45,12 @@ function ReposGrid({repos}) {
                             alt={`Avatar for ${login}`}
                         />
                         <h2 className='center-text'>
-                            <a href="{html_url}" className='link'>{login}</a>
+                            <a href={html_url} className='link'>{login}</a>
                         </h2>
                         <ul className='card-list'>
                             <li>
                                 <FaUser color='rgb(255, 191, 116)' size={22}/>
-                                <a href="{`hhtps//github.com/${login}`}">
+                                <a href="{`https://github.com/${login}`}">
                                     {login}
                                 </a>
                             </li>
